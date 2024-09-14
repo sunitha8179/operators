@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var a=true;
+    var b=false;
+    console.log(a&&b);
+
+   var age = 30;
+   var check=age>=35?"adult":"minar";
+   console.log(check);
+
+
+//null//
+  let num=null;
+  let number=num??"yes it is null or undefined";
+  console.log(number);
+  let numm="2000";
+  let numbeer=num??"it is null or undefined";
+  console.log(numbeer);
+  let name3 = "hello world";
+      let defaultName3 = name3 ?? "yes it is null or undefined";
+      console.log(defaultName3);
+
+
+      function hello(a){
+ 
+ var b=a ?? "man";
+ console.log("hello " + b);
+}
+//logical//
+var a=20;
+var b=30;
+console.log((a>b)&&(a=b));
+
+//logical or//
+var a=20;
+var b=30;
+console.log((a>b) ||(a<b));
+//ternary////nested tenary//
+var a=+prompt("enter the markes");
+var b= a>30?"pass":
+a<40?"good":"excellent";
+console.log(b);
+</script>
+    
+</body>
+</html>
